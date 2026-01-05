@@ -11,7 +11,7 @@ function Todos() {
   const Todos_PER_PAGE = 20;
  
    const fetchTodos = async () => {
-        const response  = await fetch("https://jsonplaceholder.typicode.com/users");
+        const response  = await fetch("https://jsonplaceholder.typicode.com/todos");
         if (response.ok){
  
           const data = await response.json()

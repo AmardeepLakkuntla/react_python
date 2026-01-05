@@ -45,9 +45,12 @@ function Users() {
                 <div class="card-body text-start">
                   <li key={user.id} style={{ listStyleType: 'none'}}>
                     <h5 class="card-title">{user.id} . {user.name} . {user.email}</h5>
+                    {
                     <p class="card-text">{user.address}</p>
-                    <h5 class="card-title">{user.phone} . {user.website}</h5>
+                  }
+                    <h5 class="card-title">{user.phone} . {user.website}</h5>{
                     <p class="card-text">{user.company}</p>
+         }
                   </li>
                 </div>  
               </div>
