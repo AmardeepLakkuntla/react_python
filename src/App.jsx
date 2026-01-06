@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Posts from "./pages/Posts"
 import Users from './pages/Users';
 import Todos from './pages/Todos';
-
+import Albums from './pages/Albums';
 function App() {
  
 return(
@@ -16,7 +16,7 @@ return(
     <Route path="/Posts" element={<Posts/>}></Route>
     <Route path="/Users" element={<Users/>}></Route>
     <Route path="/Todos" element={<Todos/>}></Route>
-
+    <Route path="/Albums" element={<Albums/>}></Route>
   </Routes>
 
 )
